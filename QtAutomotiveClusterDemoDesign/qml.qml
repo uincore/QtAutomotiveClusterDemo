@@ -49,7 +49,7 @@ Rectangle {
     property real  rpmValue: 0
     property real  speedValue: 0
     property int  gear: 0
-    property int fuelValue: 30
+    property int fuelValue: 130
 
     property bool turn_rightFlag: false
     property bool turn_leftFlag: false

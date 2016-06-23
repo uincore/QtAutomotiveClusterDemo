@@ -1,9 +1,11 @@
 
 #include "stdafx.h"
 #include "QtAutomotiveClusterDemo.h"
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <QTextStream>
-#include <QtGui/QApplication>
+#include <QApplication>
+
+#define RESOLUTION_1024x600
 
 int main(int argc, char *argv[])
 {
@@ -17,7 +19,8 @@ int main(int argc, char *argv[])
 
 #ifdef RESOLUTION_1024x600
     QTextStream(stdout) << branch.toLatin1() + "/QtAutomotiveClusterDemoDesign/qml_1024x600.qml" << endl;
-    view.setSource(QUrl::fromLocalFile(branch.toLatin1() + "/QtAutomotiveClusterDemoDesign/qml_1024x600.qml"));	// qml.qml is main page
+//    view.setSource(QUrl::fromLocalFile(branch.toLatin1() + "/QtAutomotiveClusterDemoDesign/qml_1024x600.qml"));	// qml.qml is main page
+    view.setSource( QUrl(QStringLiteral("qrc:/QtAutomotiveClusterDemoDesign/qml_1024x600.qml")) );
 #else
     QTextStream(stdout) << branch.toLatin1() + "/QtAutomotiveClusterDemoDesign/qml_800x480.qml" << endl;
     view.setSource(QUrl::fromLocalFile(branch.toLatin1() + "/QtAutomotiveClusterDemoDesign/qml_800x480.qml"));	// qml.qml is main page

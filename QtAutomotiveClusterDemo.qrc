@@ -1,4 +1,35 @@
 <RCC>
-    <qresource prefix="QtAutomotiveClusterDemo">
+    <qresource prefix="/">
+        <file>QtAutomotiveClusterDemoDesign/FuelMeter.qml</file>
+        <file>QtAutomotiveClusterDemoDesign/qml.qml</file>
+        <file>QtAutomotiveClusterDemoDesign/qml_800x480.qml</file>
+        <file>QtAutomotiveClusterDemoDesign/qml_1024x600.qml</file>
+        <file>QtAutomotiveClusterDemoDesign/RpmDial.qml</file>
+        <file>QtAutomotiveClusterDemoDesign/SpeedDial.qml</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/battery_full.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/battery_low.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/battery_low1.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/battery_med.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/Brake_failure.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/dropDown.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/Engine_start_stop_active.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/Engine_start_stop_inactive.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/fuel_gauge.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/fuelneedle.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/High_Beam_Indicator.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/needle.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/oilIndicator.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/overlay_active.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/overlay_active1.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/overlay_inactive1.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/parkingLight.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/petrol.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/rpm_active.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/rpm_active1.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/rpm_inactive.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/speed_active1.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/speed_inactive.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/turn_indicator.png</file>
+        <file>QtAutomotiveClusterDemoDesign/pics/turn_indicator_left.png</file>
     </qresource>
 </RCC>
